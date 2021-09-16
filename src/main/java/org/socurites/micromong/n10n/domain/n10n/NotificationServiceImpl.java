@@ -15,7 +15,7 @@ public class NotificationServiceImpl implements NotificationService {
 
     @Override
     public void send(NotificationCommand command) {
-        if (isValid(command)) {
+        if (false == isValid(command)) {
             throw new InvalidParamException("Not valid notification request");
         }
 

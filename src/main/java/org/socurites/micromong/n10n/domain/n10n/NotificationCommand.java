@@ -6,6 +6,7 @@ import lombok.ToString;
 
 @Getter
 @ToString
+@Builder
 public class NotificationCommand {
     private NotificationType type;
     private String sender;

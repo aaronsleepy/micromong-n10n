@@ -1,15 +1,11 @@
 package org.socurites.micromong.n10n.infrastructure.n10n;
 
-import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.socurites.micromong.n10n.domain.n10n.EmailNotification;
 import org.socurites.micromong.n10n.domain.n10n.NotificationCommand;
 import org.socurites.micromong.n10n.domain.n10n.NotificationSender;
 import org.socurites.micromong.n10n.domain.n10n.NotificationType;
-import org.socurites.micromong.n10n.domain.n10n.validator.NotificationValidator;
 import org.springframework.stereotype.Component;
-
-import java.util.List;
 
 @Component
 @Slf4j
